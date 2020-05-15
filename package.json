@@ -10,14 +10,14 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:sql-validator.helloWorld"
+		"onCommand:sql-validator.validateSql"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "sql-validator.helloWorld",
-				"title": "Hello World"
+				"command": "sql-validator.validateSql",
+				"title": "Validate SQL"
 			}
 		]
 	},
